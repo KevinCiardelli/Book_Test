@@ -14,12 +14,12 @@ public abstract class Book implements Comparable<Book>
   private static int counter_books;
   private static LinkedHashSet<String> banned_books = new LinkedHashSet();
 
-  public String title;
-  public String color;
-  public Genre genre;
-  public int callnumber;
-  public int rating;
-  public int pages;
+  protected String title;
+  protected String color;
+  protected Genre genre;
+  protected int callnumber;
+  protected int rating;
+  protected int pages;
 
 
   public Book(String title, int pages, String color) {
